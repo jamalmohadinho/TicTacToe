@@ -1,16 +1,51 @@
-# React + Vite
+# ❌⭕ Tic-Tac-Toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hey! 👋 This is a simple **Tic-Tac-Toe** game I built using **React**. It’s the classic Xs and Os game where two players take turns trying to get three in a row.
 
-Currently, two official plugins are available:
+I built this project mainly to practice core React skills like **useState**, passing **props**, and handling **click events** between components. The game keeps track of turns, detects the winner, and lets you restart anytime.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👉 [Try the game here](https://tictactoe-project-h7jr.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🎮 Classic 3x3 Tic-Tac-Toe gameplay (2 players)
+- 🔁 Tracks turns (X goes, then O goes)
+- ✅ Detects a winner (3 in a row)
+- ♻️ Restart button to play again
+- ⚛️ Built to practice React fundamentals (state + props + events)
+
+---
+
+## 🛠 Built With
+
+- **React** — Components, props, and `useState`
+- **Vite** — Fast dev server + build tool
+- **JavaScript / HTML / CSS**
+- **Vercel** — Deployment
+- **Git & GitHub** — Version control
+
+---
+## 📸 Screenshot
+<img width="1052" height="843" alt="Screenshot 2026-01-18 182334" src="https://github.com/user-attachments/assets/6780f85c-884e-4fa5-916c-98ee977e3d1b" />
+<img width="1035" height="817" alt="Screenshot 2026-01-18 182418" src="https://github.com/user-attachments/assets/f927c217-c0f0-4570-ab71-0dda9d3664e8" />
+
+
+
+## 🧪 How to Run It Locally
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/jamalmohadinho/TicTacToe.git
+cd TicTacToe
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the dev server
+npm run dev
